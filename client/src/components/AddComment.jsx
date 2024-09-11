@@ -2,14 +2,14 @@ import UserImg from "../assets/users/user1.jpg";
 
 export const AddComment = () => {
   return (
-    <div className="flex py-2 px-4 rounded-lg bg-neutral-100 gap-2">
+    <div className="flex py-2 px-4 rounded-lg  gap-2">
       <img
         className="object-cover flex-shrink-0 h-10 w-10 rounded-full"
         src={UserImg}
         alt=""
       />
       <input
-        className="flex-1 text-xs px-2 rounded-lg border border-neutral-200"
+        className="flex-1 text-sm px-2 rounded-lg border border-neutral-200"
         placeholder="Введите текст"
         type="text"
       />

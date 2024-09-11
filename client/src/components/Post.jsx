@@ -26,7 +26,7 @@ export const Post = ({
   const onClickRemove = () => {};
 
   return (
-    <div className="w-full rounded-lg border overflow-hidden">
+    <div className="w-full mb-4 rounded-lg border overflow-hidden">
       <div className="flex flex-col gap-2 p-4">
         {imageUrl && (
           <img

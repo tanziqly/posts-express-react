@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export const Header = () => {
-  const isAuth = true;
+  const isAuth = false;
 
   const onClickLogOut = () => {};
 
@@ -13,12 +13,12 @@ export const Header = () => {
         </Link>
         {!isAuth ? (
           <div className="flex gap-2">
-            <Link to="/login">
+            <Link to="/sign-in">
               <button className="px-4 py-2 rounded-lg border border-green-500 text-green-500 hover:bg-green-500 hover:text-white font-medium">
                 Войти
               </button>
             </Link>
-            <Link to="/register">
+            <Link to="/sign-up">
               <button className="px-4 py-2 rounded-lg text-white font-medium bg-green-500 hover:bg-green-600">
                 Регистрация
               </button>
