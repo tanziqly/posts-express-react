@@ -31,7 +31,7 @@ export const AddPost = () => {
 
   return (
     <div className="w-full p-2 flex justify-start gap-4 flex-col">
-      <button className="w-fit px-4 py-2 rounded-lg text-sm bg-lime-400 hover:bbg-lime-500">
+      <button className="w-fit px-4 py-2 rounded-lg text-sm bg-lime-400 hover:bg-lime-500">
         Загрузить превью
       </button>
       <input type="file" onChange={handleChangeFile} hidden />
